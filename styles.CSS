@@ -12,8 +12,43 @@ h1{
     font-family: "Luxurious Script";
     font-weight: 400;
     font-size: 120px;
+    padding: 10px;
 }
 h2 {
     font-family:"Helvetica",serif;
     font-weight: 500; 
 }
+p{
+    font-family: "Helvetica";
+    font-weight: 500;
+    background-color: white;
+    color:rgb(61, 0, 0);
+    padding: 10px;
+    border-radius: 32px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+nav {
+    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
+    background: rgb(61, 0, 0);
+    margin-left: 250px;
+  }
+  li {
+    display: inline-block;
+    padding: 10px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 1px;
+    margin-right: 150px;
+    border-left: 1px solid black ; 
+    border-radius: 16px;
+    background-color: white;
+    
+  }
+  a {
+    color:rgb(61, 0, 0);
+    text-decoration: none;
+    &:hover {
+      border-bottom: 10px solid black;
+    }
+  }
