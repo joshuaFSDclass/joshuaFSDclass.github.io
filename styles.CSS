@@ -29,7 +29,7 @@ p{
     margin-bottom: 100px;
 }
 nav {
-    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
+    font-family: "Helvetica",serif;
     background: rgb(61, 0, 0);
     margin-left: 250px;
   }
@@ -51,4 +51,16 @@ nav {
     &:hover {
       border-bottom: 10px solid black;
     }
+  }
+  .redtext{
+    color: red;
+  }
+  .makecenterd{
+    text-align: center;
+  }
+  #movetobottom{
+    margin: 250px;
+  }
+  #perfectpadding{
+    padding:2px
   }
