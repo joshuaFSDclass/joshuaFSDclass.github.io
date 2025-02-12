@@ -23,8 +23,8 @@ p{
     font-weight: 500;
     background-color: white;
     color:rgb(61, 0, 0);
-    padding: 10px;
-    border-radius: 32px;
+    padding: 2px;
+    border-radius: 16px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -40,13 +40,12 @@ nav {
     padding-right: 40px;
     margin-bottom: 1px;
     margin-right: 150px;
-    border-left: 1px solid black ; 
     border-radius: 16px;
-    background-color: white;
-    
+    background-color:rgb(70, 0, 0);
+
   }
   a {
-    color:rgb(61, 0, 0);
+    color: white;
     text-decoration: none;
     &:hover {
       border-bottom: 10px solid black;
@@ -58,9 +57,11 @@ nav {
   .makecenterd{
     text-align: center;
   }
-  #movetobottom{
-    margin: 250px;
+  .movetobottom{
+    margin-top: 250px;
+    margin-left: 900px;
   }
-  #perfectpadding{
+  .perfectpadding{
     padding:2px
   }
+  
