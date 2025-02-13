@@ -13,20 +13,24 @@ h1{
     font-weight: 400;
     font-size: 120px;
     padding: 10px;
+    margin-bottom: 0px;
 }
 h2 {
     font-family:"Helvetica",serif;
     font-weight: 500; 
+    margin-top: 0px;
 }
 p{
     font-family: "Helvetica";
-    font-weight: 500;
-    background-color: white;
-    color:rgb(61, 0, 0);
-    padding: 2px;
+    font-weight: 700;
+    background-color: rgb(70, 0, 0);
+    color:white;
+    padding: 10px;
     border-radius: 16px;
     text-align: center;
     margin-bottom: 100px;
+    max-width: 700px;
+    font-size: larger;
 }
 nav {
     font-family: "Helvetica",serif;
@@ -63,5 +67,11 @@ nav {
   }
   .perfectpadding{
     padding:2px
+  }
+  #aligning_pic_myblerb{
+ display: flex; justify-content: center;
+  }
+  #spacemypic{
+display: flex;justify-content: flex-end;
   }
   
