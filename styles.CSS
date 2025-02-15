@@ -74,4 +74,13 @@ nav {
   #spacemypic{
 display: flex;justify-content: flex-end;
   }
-  
+  #center_paragraph{
+    display: flex;justify-content: center;
+  }
+  #make_circle img{
+    width: 400px;
+    height: 400px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50%;
+  }
