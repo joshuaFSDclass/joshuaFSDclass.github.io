@@ -27,10 +27,12 @@ p{
     color:white;
     padding: 10px;
     border-radius: 16px;
-    text-align: center;
     margin-bottom: 100px;
     max-width: 700px;
     font-size: larger;
+    
+    max-width: 800px;
+    text-align: center;
 }
 nav {
     font-family: "Helvetica",serif;
@@ -72,15 +74,25 @@ nav {
  display: flex; justify-content: center;
   }
   #spacemypic{
+    margin-top: 40px;
 display: flex;justify-content: flex-end;
   }
-  #center_paragraph{
+  .center_paragraph{
     display: flex;justify-content: center;
   }
   #make_circle img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-width: 2px;
     border-color: white;
     border-radius: 50%;
+  
   }
+  .small_discriptions{
+    font-size: small;
+    font-style: italic;
+    text-align: left;
+    position: relative;
+    top: 60px;
+  }
+  
