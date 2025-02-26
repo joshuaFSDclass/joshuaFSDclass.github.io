@@ -19,6 +19,7 @@ h2 {
     font-family:"Helvetica",serif;
     font-weight: 500; 
     margin-top: 0px;
+    text-align: center;
 }
 p{
     font-family: "Helvetica";
@@ -54,7 +55,7 @@ nav {
     color: white;
     text-decoration: none;
     &:hover {
-      border-bottom: 10px solid black;
+      color:red;
     }
   }
   .redtext{
@@ -63,36 +64,36 @@ nav {
   .makecenterd{
     text-align: center;
   }
-  .movetobottom{
-    margin-top: 250px;
-    margin-left: 900px;
+ .makecenterd > p{
+  margin: 75px;
+  margin-left: 400px;
+  max-width: 700px;
+ }
+ .makecenterd > h2{
+  margin-top:100px;
+ }
+  .img_with_blerb{
+    display: flex;
+    justify-content: flex-end;
   }
-  .perfectpadding{
-    padding:2px
-  }
-  #aligning_pic_myblerb{
- display: flex; justify-content: center;
-  }
-  #spacemypic{
-    margin-top: 40px;
-display: flex;justify-content: flex-end;
-  }
-  .center_paragraph{
-    display: flex;justify-content: center;
-  }
-  #make_circle img{
-    width: 200px;
-    height: 200px;
-    border-width: 2px;
-    border-color: white;
+  .img_with_blerb img{
+    max-width: 250px;
+    max-height: 500px;
     border-radius: 50%;
-  
+    
   }
-  .small_discriptions{
-    font-size: small;
-    font-style: italic;
-    text-align: left;
+  .img_with_blerb p{
+    font-size: medium;
     position: relative;
-    top: 60px;
+    top: 40px;
+  }
+  .blerb_to_bottum{
+    margin-top: 250px;
+  }
+  
+  
+  a:visited {
+    color: red;
+   
   }
   
