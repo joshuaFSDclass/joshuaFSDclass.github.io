@@ -96,3 +96,19 @@ nav {
   a:active{
     color:salmon
   }
+  /* .project_layout ~ h4{
+    display: flex:
+
+  } */
+  .img_sizing {
+    max-width: 200px;
+    max-height: 200px;
+    
+  }
+
+  .project_layout{
+    display: flex;
+  }
+  .project_layout:nth-child(even){
+    flex-direction: row-reverse;
+  }
