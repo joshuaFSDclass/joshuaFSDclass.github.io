@@ -102,11 +102,13 @@ nav {
   }
 .project_layout{
   display:flex;
+  justify-content: space-between;
 }
 .project_layout:nth-child(even){
    flex-direction: row-reverse;
 
 }
   .pictures{
-    height: 300px;
+    height: 200px;
   }
+ 
