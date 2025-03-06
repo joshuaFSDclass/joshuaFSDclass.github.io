@@ -21,46 +21,47 @@
     <p> joshualewin9@gmail.com <br>jlewin@brooklynsteamcenter.org <br> (347) 274-5347 <br> (347) 464-3680</p>
     <p><a href="https://docs.google.com/document/d/1Yg9A8gw6fXij_13SR3xGPxSzFMLUXJ2RVOEmZy93yz0/edit?usp=sharing">My_resume</a></p>
   </div>
-  <div id="form_position">
-  <form action="https://form-to-email.steam-center.workers.dev/"method="post"> 
-    
-    </label>First Name</label>
+  
+  <div id="form-container">
+      <form action="https://form-to-email.steam-center.workers.dev/"method="post"> 
+        
+        <label>First Name</label>
+        <br>
+        <input name="First_Name" type="text">
+        <br>
+        <input hidden name="send-to" value="lewinjoshua9@gmail.com">
+        <br>
+        <label>Last Name</label>
+        <br>
+        <input name="Last_Name" type="text">
+        <br>
+      <label>Prefered contact method</label>
+      <br>
+      <input name="method_of_contact" type="radio"> email
+      <br>
+      <input name="method_of_contact" type="radio"> phone
+      <br>
+        <label>Email address</label>
+        <br>
+        <input name="email" type="email">
+        <br>
+      <label>Phone number</label>
+      <br>
+      <input name="phone_number" type="tel">
+      <br>
+    <label>what is the purpose for contacting me</label>
     <br>
-    <input name="First_Name" type="text">
+    <textarea name="reason_to_contact_men" id="" ></textarea>
     <br>
-    <input hidden name="send-to" value="lewinjoshua9@gmail.com">
-    <br>
-    </label>Last Name</label>
-    <br>
-    <input name="Last_Name" type="text">
-    <br>
-  </label>Prefered contact method</label>
-  <br>
-  <input name="method_of_contact" type="radio"> email
-  <br>
-  <input name="method_of_contact" type="radio"> phone
-  <br>
-    </label>Email address</label>
-    <br>
-    <input name="email" type="email">
-    <br>
-  </label>Phone number</label>
-  <br>
-  <input name="phone_number" type="tel">
-  <br>
-<label>what is the purpose for contacting me</label>
-<br>
-<textarea name="reason_to_contact_men" id="" ></textarea>
-<br>
-
-  </form>
-  </div>
-  <button type="submit">
+    <button type="submit">
     <i data-lucide="send"></i>
   </button>
   <button type="reset">
     <i data-lucide="rotate-ccw"></i>
   </button>
+    </form class="form_center">
+  </div>
+  
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
