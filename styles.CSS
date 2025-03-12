@@ -58,6 +58,10 @@ nav {
       color:red;
     }
   }
+  img{
+    border: solid salmon 4px;
+    border-radius: 4px;
+  }
   .redtext{
     color: red;
   }
@@ -87,7 +91,7 @@ nav {
     position: relative;
     top: 40px;
   }
-  .blerb_to_bottum{
+  .blerb_to_bottum {
     margin-top: 250px;
   }
   #form_position{
@@ -102,14 +106,20 @@ nav {
   }
 .project_layout{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .project_layout:nth-child(even){
    flex-direction: row-reverse;
 
 }
 .hero{
+  margin: 8px;
+  background-color: rgb(90, 0, 0);
+  border: solid rgb(71, 0, 0) 8px;
+  border-radius: 4px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .hero:nth-child(even){
   flex-direction: row-reverse;
@@ -117,12 +127,16 @@ nav {
 .hero:nth-child(odd){
   flex-direction: row;
 }
-.heroTitle{
+.hero h4{
+  font-size: 26px;
   text-align: center;
+  text-decoration: wavy;
 }
+
   .pictures{
     height: 200px;
   }
+  
   @media screen and (max-width: 400){
     p{
       font-size: larger;
