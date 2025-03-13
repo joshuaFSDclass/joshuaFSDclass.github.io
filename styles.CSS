@@ -13,12 +13,10 @@ h1{
     font-weight: 400;
     font-size: 150px;
     padding: 10px;
-    margin-bottom: 0px;
 }
 h2 {
     font-family:"Helvetica",serif;
     font-weight: 500; 
-    margin-top: 0px;
     text-align: center;
 }
 p{
@@ -31,9 +29,10 @@ p{
     margin-bottom: 100px;
     max-width: 700px;
     font-size: larger;
-    
+    border: groove #990000 2px;
     max-width: 800px;
     text-align: center;
+    border-style:double
 }
 nav {
     font-family: "Helvetica",serif;
@@ -59,7 +58,7 @@ nav {
     }
   }
   img{
-    border: solid salmon 4px;
+    border: solid red 4px;
     border-radius: 4px;
   }
   .redtext{
@@ -67,15 +66,9 @@ nav {
   }
   .makecenterd{
     text-align: center;
+    justify-items: center;
   }
- .makecenterd > p{
-  margin: 75px;
-  margin-left: 400px;
-  max-width: 700px;
- }
- .makecenterd > h2{
-  margin-top:100px;
- }
+
   .img_with_blerb{
     display: flex;
     justify-content: flex-end;
@@ -131,6 +124,20 @@ nav {
   font-size: 26px;
   text-align: center;
   text-decoration: wavy;
+}
+#king{
+  margin: 200px;
+}
+.Big{
+  font-weight: 900;
+  font-size: x-large;
+}
+.blerb{
+  font-size: medium;
+}
+.blerb span{
+ font-size: x-large;
+  
 }
 
   .pictures{
