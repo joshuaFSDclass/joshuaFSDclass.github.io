@@ -176,3 +176,43 @@ nav {
     justify-self: center;
     
   }
+  .foods{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    border:4px,solid,pink;
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /* Mobile devices */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 20px;
+  }
+  .header {
+    font-size: 16px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 30px;
+  }
+  .header {
+    font-size: 20px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1025px) {
+  .container {
+    padding: 50px;
+  }
+  .header {
+    font-size: 24px;
+  }
+}
