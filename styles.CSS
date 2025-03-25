@@ -127,6 +127,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .hero:nth-child(even){
   flex-direction: row-reverse;
@@ -144,7 +145,7 @@ nav {
 }
 .Big{
   font-weight: 900;
-  font-size: x-large;
+  font-size: 100px;
 }
 .blerb{
   font-size: medium;
@@ -155,7 +156,7 @@ nav {
 }
 
   .pictures{
-    height: 200px;
+    height: 300px;
   }
   
   @media screen and (max-width: 400){
