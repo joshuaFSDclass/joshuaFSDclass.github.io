@@ -179,9 +179,11 @@ nav {
   .foods{
     align-items: center;
     display: flex;
-    justify-content: space-between;
     height: 200px;
     border:4px,solid,pink;
+  }
+  .foods img{
+    justify-content: space-between;
   }
   .container {
     width: 100%;
