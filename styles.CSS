@@ -177,6 +177,7 @@ nav {
     
   }
   .foods{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     height: 200px;
