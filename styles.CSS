@@ -147,6 +147,10 @@ nav {
   font-weight: 900;
   font-size: 100px;
 }
+.kindahBig{
+  font-weight: 800;
+  font-size: 50px;
+}
 .blerb{
   font-size: medium;
 }
@@ -179,7 +183,7 @@ nav {
   .foods{
     display: flex;
     justify-items: center;
-    
+    align-items: center;
   }
   .foods img{
     border: solid 2px rgb(90, 0, 0);
