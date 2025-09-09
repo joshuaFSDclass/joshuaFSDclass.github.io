@@ -180,15 +180,29 @@ nav {
     justify-self: center;
     
   }
-  .foods{
+  .hobbies {
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .hobbies img {
+    max-height: 150px;
+    justify-content: center;
+    margin: 10px;
     display: flex;
-    justify-items: center;
-    align-items: center;
+    
+  }
+  .foods{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .foods img{
-    border: solid 2px rgb(90, 0, 0);
-    border-radius: 25%;
-    height: 200px;
+    max-height: 150px;
+    justify-content: center;
+    margin: 10px;
   }
   .container {
     width: 100%;
